@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Benoit Viguier</title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Benoit Viguier personnal web page">
@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-    <link href="css/full-width-pics.css" rel="stylesheet">
+    <script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,85 +25,40 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script src="js/main.js"></script>
+
+
 </head>
 <body>
 
-<!-- Full Width Image Header with Logo -->
-<!-- Image backgrounds are set within the full-width-pics.css file. -->
-<header class="image-bg-fluid-height">
-    <img class="img-responsive img-center img-thumbnail" src="img/me_200x200.png" alt="Benoit">
-</header>
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1>
+            Benoit Viguier<br/>
+            <small>Developpeur</small>
+        </h1>
+    </div>
 
-<!-- Content Section -->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="section-heading">Benoit Viguier</h1>
-                <p class="lead section-lead">Some links to know more about me...</p>
-                <p class="section-paragraph">
-                <ul class="list-unstyled">
-                    <li>
-                        <i class="fa fa-home"></i>
-                        <a href="https://www.google.fr/maps/place/Lyon" title="Home">
-                            Lyon, France
-                        </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-building"></i>
-                        <a href="https://wizacha.com" title="Job">
-                            Wizacha
-                        </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-linkedin-square"></i>
-                        <a href="https://fr.linkedin.com/in/bviguier" title="Linkedin">
-                            bviguier
-                        </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-twitter"></i>
-                        <a href="https://twitter.com/b_viguier" title="Twitter">
-                            @b_viguier
-                        </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-github"></i>
-                        <a href="https://github.com/b-viguier" title="GitHub">
-                            @b-viguier
-                        </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-pencil"></i>
-                        <a href="http://wizacha.github.io/blog/index.html" title="Articles">
-                            Articles
-                        </a>
-                    </li>
-                    <li>
-                        <i class="fa fa-file"></i>
-                        <a href="data/CV_Viguier__public.pdf" title="Resume">
-                            Resume (available for hire)
-                        </a>
-                    </li>
-                </ul>
+    <div class="page-header">
+        <h1>Moi</h1>
+    </div>
+    <section class="row text-center" id="links-section">
+
+        <script type="text/template" id="link-template">
+            {{#links}}
+            <div class="col-sm-4">
+                <p><i class="fa fa-5x fa-{{icon}}"></i></p>
+                <p>
+                    <a href="{{url}}" alt="{{title}}">
+                        {{text}}
+                    </a>
                 </p>
             </div>
-        </div>
-    </div>
-</section>
+            {{/links}}
+        </script>
 
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="small">This is a footer</p>
-            </div>
-        </div>
-        <!-- /.row -->
-    </div>
-    <!-- /.container -->
-</footer>
+    </section>
+</div>
 
 </body>
 </html>

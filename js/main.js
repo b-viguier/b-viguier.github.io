@@ -1,0 +1,41 @@
+var data = {
+    "links" : [
+        {
+            "title": "Home",
+            "text": "Lyon, France",
+            "icon": "home",
+            "url": "https://www.google.fr/maps/place/Lyon"
+        },
+        {
+            "title": "Twitter",
+            "text": "@b_viguier",
+            "icon": "twitter",
+            "url": "https://twitter.com/b_viguier"
+        },
+        {
+            "title": "Github",
+            "text": "@b-viguier",
+            "icon": "github",
+            "url": "https://github.com/b-viguier"
+        },
+        {
+            "title": "Linkedin",
+            "text": "linkedin.com/in/bviguier",
+            "icon": "linkedin",
+            "url": "https://fr.linkedin.com/in/bviguier"
+        },
+        {
+            "title": "Resume",
+            "text": "CV",
+            "icon": "file",
+            "url": "data/CV_Viguier__public.pdf"
+        }
+    ]
+};
+
+$(function() {
+    var template = Hogan.compile($("#link-template").text());
+    $("#links-section").html(
+        template.render(data)
+    );
+});
