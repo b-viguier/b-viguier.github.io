@@ -39,23 +39,24 @@
         </h1>
     </div>
 
-    <div class="page-header">
-        <h1>Moi</h1>
-    </div>
-    <section class="row text-center" id="links-section">
-
-        <script type="text/template" id="link-template">
-            {{#links}}
-            <div class="col-sm-4">
-                <p><i class="fa fa-5x fa-{{icon}}"></i></p>
-                <p>
-                    <a href="{{url}}" alt="{{title}}">
-                        {{text}}
-                    </a>
-                </p>
-            </div>
-            {{/links}}
-        </script>
+    <section class="row text-center">
+        <div class="page-header">
+            <h1>Moi</h1>
+        </div>
+        <div id="links-section">
+            <script type="text/template" id="link-template">
+                {{#links}}
+                <div class="col-sm-4">
+                    <p><i class="fa fa-5x fa-{{icon}}"></i></p>
+                    <p>
+                        <a href="{{url}}" alt="{{title}}">
+                            {{text}}
+                        </a>
+                    </p>
+                </div>
+                {{/links}}
+            </script>
+        </div>
 
     </section>
 </div>
