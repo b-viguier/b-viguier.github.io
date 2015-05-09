@@ -44,10 +44,10 @@
             <h1>Moi</h1>
         </div>
         <div id="links-section">
-            <script type="text/template" id="link-template">
+            <script type="text/template" id="links-template">
                 {{#links}}
-                <div class="col-sm-12 col-sm-6 col-md-4 col-lg-2">
-                    <p><i class="fa fa-5x fa-{{icon}}"></i></p>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                    <p><i class="fa fa-5x fa-{{icon}} fa-border"></i></p>
                     <p>
                         <a href="{{url}}" alt="{{title}}">
                             {{text}}
@@ -57,7 +57,36 @@
                 {{/links}}
             </script>
         </div>
+    </section>
 
+    <section class="row text-center">
+        <div class="page-header">
+            <h1>Talks</h1>
+        </div>
+        <div id="talks-section">
+            <script type="text/template" id="talks-template">
+                {{#talks}}
+                <div class="col-sm-6 col-md-4">
+                    <ul class="fa-ul">
+                        <li>
+                            <i class="fa fa-comment"></i>
+                            <a href="" alt="{{title}}">
+                                {{title}}
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fa fa-calendar"></i>
+                            {{date}}
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker"></i>
+                            <a href="{{event_url}}">{{event}}</a>
+                        </li>
+                    </ul>
+                </div>
+                {{/talks}}
+            </script>
+        </div>
     </section>
 </div>
 

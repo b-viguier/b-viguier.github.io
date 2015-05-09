@@ -30,12 +30,49 @@ var data = {
             "icon": "file",
             "url": "data/CV_Viguier__public.pdf"
         }
+    ],
+    "talks": [
+        {
+            "title": "Jamais trop tôt pour le cloud",
+            "date": date(6, 5, 2015),
+            "event": "Afup",
+            "event_url": "http://lyon.afup.org/2015/04/13/conference-sur-aws-le-6-mai-a-19h/"
+        },
+        {
+            "title": "El framework de la muerte",
+            "date": date(9, 12, 2014),
+            "event": "HumanTalks",
+            "event_url": "http://humantalks.com/talks/534-el-framework-de-la-muerte"
+        },
+        {
+            "title": "Faire coder les candidats en pre-entretien: bilan",
+            "date": date(18, 11, 2014),
+            "event": "HumanTalks",
+            "event_url": "http://humantalks.com/talks/508-faire-coder-les-candidats-en-pre-entretien-bilan"
+        },
+        {
+            "title": "Mercurial: l'autre DVCS",
+            "date": date(14, 10, 2014),
+            "event": "HumanTalks",
+            "event_url": "http://www.lyonjug.org/evenements/docker"
+        }
     ]
 };
 
+function date(day, month, year)
+{
+    return (new Date(year, month, day)).toLocaleDateString(
+        "fr-FR",
+        {year: "numeric", month: "short", day: "numeric"}
+    );
+}
+
 $(function() {
-    var template = Hogan.compile($("#link-template").text());
     $("#links-section").html(
-        template.render(data)
+        Hogan.compile($("#links-template").text()).render(data)
+    );
+
+    $("#talks-section").html(
+        Hogan.compile($("#talks-template").text()).render(data)
     );
 });
