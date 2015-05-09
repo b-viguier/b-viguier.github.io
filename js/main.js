@@ -19,6 +19,12 @@ var data = {
             "url": "https://github.com/b-viguier"
         },
         {
+            "title": "Bitbucket",
+            "text": "benoit_viguier",
+            "icon": "bitbucket",
+            "url": "https://bitbucket.org/benoit_viguier"
+        },
+        {
             "title": "Linkedin",
             "text": "linkedin.com/in/bviguier",
             "icon": "linkedin",
