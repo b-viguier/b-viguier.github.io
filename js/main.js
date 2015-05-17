@@ -34,7 +34,7 @@ var data = {
             "title": "Resume",
             "text": "CV",
             "icon": "file",
-            "url": "data/CV_Viguier__public.pdf"
+            "url": "downloads/CV_Viguier__public.pdf"
         }
     ],
     "talks": [
