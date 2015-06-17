@@ -39,6 +39,14 @@ var data = {
     ],
     "talks": [
         {
+            "title": "From Legacy to Symfony",
+            "url": "http://slides.com/abenassy/bbl-yproximite",
+            "date": date(9, 6, 2015),
+            "event": "BBL @YProximité",
+            "remarks": "(feat. <a href='https://twitter.com/ABenassy'>@ABenassy</a>)",
+            "event_url": "http://www.brownbaglunch.fr"
+        },
+        {
             "title": "Jamais trop tôt pour le cloud",
             "url": "downloads/talks/Afup-NeverTooYoung4Cloud.pdf",
             "date": date(6, 5, 2015),
