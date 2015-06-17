@@ -71,7 +71,7 @@ var data = {
 
 function date(day, month, year)
 {
-    return (new Date(year, month, day)).toLocaleDateString(
+    return (new Date(year, month - 1, day)).toLocaleDateString(
         "fr-FR",
         {year: "numeric", month: "short", day: "numeric"}
     );
