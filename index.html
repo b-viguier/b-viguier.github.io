@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Benoit Viguier</title>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Benoit Viguier personnal web page">
-    <meta name="author" content="Benoit Viguier">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/cosmo/bootstrap.min.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hogan.js/3.0.2/hogan.min.js"></script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <script src="js/main.js"></script>
-
-
-</head>
-<body>
+---
+layout: default
+---
 
 <div class="container">
     <div class="jumbotron text-center">
@@ -44,19 +15,14 @@
             <h1>Moi</h1>
         </div>
         <div id="links-section">
-            <i class="fa fa-spinner fa-spin"></i>
-            <script type="text/template" id="links-template">
-                {{#links}}
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
-                    <p><i class="fa fa-5x fa-{{icon}} fa-border"></i></p>
-                    <p>
-                        <a href="{{url}}" alt="{{title}}">
-                            {{text}}
-                        </a>
-                    </p>
-                </div>
-                {{/links}}
-            </script>
+            {% for link in site.data.links %}
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <a href="{{ link.url }}" alt="{{ link.title }}">
+                    <p><i class="fa fa-5x fa-{{ link.icon }} fa-border"></i></p>
+                    <p>{{ link.text }}</p>
+                </a>
+            </div>
+            {% endfor %}
         </div>
     </section>
 
@@ -65,34 +31,29 @@
             <h1>Talks</h1>
         </div>
         <div class="row" id="talks-section">
-            <i class="fa fa-spinner fa-spin"></i>
-            <script type="text/template" id="talks-template">
-                {{#talks}}
+            {% for talk in site.data.talks %}
                 <div class="col-sm-6 col-md-4">
                     <ul class="fa-ul">
                         <li>
                             <i class="fa fa-comment"></i>
-                            <a href="{{url}}" alt="{{title}}">
-                                {{title}}
+                            <a href="{{ talk.url }}" alt="{{ talk.title }}">
+                                {{ talk.title }}
                             </a>
                         </li>
-                        {{#remarks}}
-                        <li>
-                            {{{remarks}}}
-                        </li>
-                        {{/remarks}}
                         <li>
                             <i class="fa fa-calendar"></i>
-                            {{date}}
+                            {{ talk.date }}
                         </li>
                         <li>
                             <i class="fa fa-map-marker"></i>
-                            <a href="{{event_url}}">{{event}}</a>
+                            <a href="{{ talk.event_url }}">{{ talk.event }}</a>
+                        </li>
+                        <li>
+                            {{ talk.remarks }}&nbsp;
                         </li>
                     </ul>
                 </div>
-                {{/talks}}
-            </script>
+            {% endfor %}
         </div>
         <p class="text-warning">
             <strong>Avertissement:</strong>
@@ -100,16 +61,3 @@
         </p>
     </section>
 </div>
-
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-1379450-2', 'auto');
-    ga('send', 'pageview');
-</script>
-
-</body>
-</html>
