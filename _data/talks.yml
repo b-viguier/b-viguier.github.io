@@ -1,5 +1,11 @@
 -
     title: "Index SQL: Born to B-Tree"
+    url: downloads/talks/SfPot-IndexSqlBorn2BTree.pdf
+    date: 26 janvier 2016
+    event: SfPot Lyon
+    event_url: http://www.meetup.com/fr-FR/afsy-sfpot/events/228053900/
+-
+    title: "Index SQL: Born to B-Tree"
     url: downloads/talks/M6WLFT-IndexSqlBorn2BTree.pdf
     date: 27 novembre 2015
     event: M6Web
