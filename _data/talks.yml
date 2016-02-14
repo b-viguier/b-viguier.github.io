@@ -3,6 +3,7 @@
     url: downloads/talks/SfPot-IndexSqlBorn2BTree.pdf
     date: 26 janvier 2016
     event: SfPot Lyon
+    remarks: <i class="fa fa-youtube-play"></i> <a href="https://www.youtube.com/watch?v=rsVM-dZzT1E">Vidéo</a>
     event_url: http://www.meetup.com/fr-FR/afsy-sfpot/events/228053900/
 -
     title: "Index SQL: Born to B-Tree"
@@ -15,7 +16,7 @@
     url: http://slides.com/abenassy/bbl-yproximite
     date: 9 juin 2015
     event: BBL @YProximité
-    remarks: (feat. <a href='https://twitter.com/ABenassy'>@ABenassy</a>)
+    remarks: <i class="fa fa-users"></i> feat. <a href='https://twitter.com/ABenassy'>@ABenassy</a>
     event_url: http://www.brownbaglunch.fr
 -
     title: Jamais trop tôt pour le cloud
