@@ -1,5 +1,11 @@
 -
     title: Array Tips
+    url: downloads/talks/M6WLFT-ArrayTips.pdf
+    date: 1er Avril 2016
+    event: M6Web LFT
+    event_url: http://tech.m6web.fr
+-
+    title: Array Tips
     url: downloads/talks/Afup-ArrayTips.pdf
     date: 23 mars 2016
     event: Afup
@@ -15,7 +21,7 @@
     title: "Index SQL: Born to B-Tree"
     url: downloads/talks/M6WLFT-IndexSqlBorn2BTree.pdf
     date: 27 novembre 2015
-    event: M6Web
+    event: M6Web LFT
     event_url: http://tech.m6web.fr
 -
     title: From Legacy to Symfony
