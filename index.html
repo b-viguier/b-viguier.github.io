@@ -10,11 +10,11 @@ layout: default
         </h1>
     </div>
 
-    <section class="row text-center">
+    <section class="text-center">
         <div class="page-header">
             <h1>Moi</h1>
         </div>
-        <div id="links-section">
+        <div class="row" id="links-section">
             {% for link in site.data.links %}
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                 <a href="{{ link.url }}" alt="{{ link.title }}">
@@ -33,7 +33,7 @@ layout: default
         <div class="row" id="talks-section">
             {% for talk in site.data.talks %}
                 <div class="col-sm-6 col-md-4">
-                    <ul class="fa-ul">
+                    <ul class="alert alert-info fa-ul">
                         <li>
                             <i class="fa fa-comment"></i>
                             <a href="{{ talk.url }}" alt="{{ talk.title }}">
