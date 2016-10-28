@@ -1,4 +1,10 @@
 -
+    title: Une donnée presque parfaite
+    url: downloads/talks/ForumPhp-Une-Donnée-Presque-Parfaite.pdf
+    date: 28 Octobre 2016
+    event: ForumPhp 2016
+    event_url: http://event.afup.org/forum-php-2016/programme/#1912
+-
     title: Array Tips
     url: downloads/talks/ForumPhp-Array-Tips.pdf
     date: 27 Octobre 2016
@@ -6,7 +12,7 @@
     event_url: http://event.afup.org/forum-php-2016/programme/#1976
 -
     title: Une donnée presque parfaite
-#    url: Anti-Spoiler
+    url: downloads/talks/AfupLyon-UneDonnéePresqueParfaite.pdf
     date: 12 Octobre 2016
     event: Afup Lyon
     event_url: http://lyon.afup.org/2016/09/21/conferences-sur-la-gestion-de-donnees-publication-devents-dans-rabbitmq-le-12-octobre-a-19h/
