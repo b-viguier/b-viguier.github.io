@@ -30,6 +30,10 @@ layout: default
         <div class="page-header">
             <h1>Talks</h1>
         </div>
+        <p class="text-warning">
+            <strong>Avertissement:</strong>
+            Ces slides sont surtout faits pour être présentés, et non lus&hellip;
+        </p>
         <div class="row" id="talks-section">
             {% for talk in site.data.talks %}
                 <div class="col-sm-6 col-md-4">
@@ -55,9 +59,29 @@ layout: default
                 </div>
             {% endfor %}
         </div>
-        <p class="text-warning">
-            <strong>Avertissement:</strong>
-            Ces slides sont surtout faits pour être présentés, et non lus&hellip;
-        </p>
+    </section>
+
+    <section class="text-center">
+        <div class="page-header">
+            <h1>Articles</h1>
+        </div>
+        <div class="row" id="articles-section">
+            {% for article in site.data.articles %}
+            <div class="col-sm-6 col-md-4">
+                <ul class="alert alert-info fa-ul">
+                    <li>
+                        <i class="fa fa-comment"></i>
+                        <a href="{{ article.url }}" alt="{{ article.title }}">
+                            {{ article.title }}
+                        </a>
+                    </li>
+                    <li>
+                        <i class="fa fa-calendar"></i>
+                        {{ article.date }}
+                    </li>
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
     </section>
 </div>
