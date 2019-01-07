@@ -18,7 +18,7 @@ layout: default
             {% for link in site.data.links %}
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
                 <a href="{{ link.url }}" alt="{{ link.title }}">
-                    <p><i class="fa fa-5x fa-{{ link.icon }} fa-border"></i></p>
+                    <p><i class="{{ link.icon }} fa-5x fa-border"></i></p>
                     <p>{{ link.text }}</p>
                 </a>
             </div>

@@ -4,7 +4,7 @@
     date: 26 Octobre 2018
     event: ForumPhp 2018
     event_url: https://event.afup.org/forumphp2018/programme/#2752
-    remarks: <i class="fa fa-youtube-play"></i> <a href="https://youtu.be/7TvIIt4c8uY">Vidéo</a>
+    remarks: <i class="fab fa-youtube"></i> <a href="https://youtu.be/7TvIIt4c8uY">Vidéo</a>
 -
     title: Generators and Asynchronous Computation
     url: downloads/talks/Afup-GeneratorsAndAsync.pdf
@@ -47,14 +47,14 @@
     date: 28 Octobre 2016
     event: ForumPhp 2016
     event_url: http://event.afup.org/forum-php-2016/programme/#1912
-    remarks: <i class="fa fa-youtube-play"></i> <a href="https://www.youtube.com/watch?v=kSlYXpezjIQ">Vidéo</a>
+    remarks: <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=kSlYXpezjIQ">Vidéo</a>
 -
     title: Array Tips
     url: downloads/talks/ForumPhp-Array-Tips.pdf
     date: 27 Octobre 2016
     event: ForumPhp 2016
     event_url: http://event.afup.org/forum-php-2016/programme/#1976
-    remarks: <i class="fa fa-youtube-play"></i> <a href="https://youtu.be/QfjRtTfhM4U?t=1277">Vidéo</a>
+    remarks: <i class="fab fa-youtube"></i> <a href="https://youtu.be/QfjRtTfhM4U?t=1277">Vidéo</a>
 -
     title: Une donnée presque parfaite
     url: downloads/talks/AfupLyon-UneDonnéePresqueParfaite.pdf
@@ -78,7 +78,7 @@
     url: downloads/talks/SfPot-IndexSqlBorn2BTree.pdf
     date: 26 janvier 2016
     event: SfPot Lyon
-    remarks: <i class="fa fa-youtube-play"></i> <a href="https://www.youtube.com/watch?v=rsVM-dZzT1E">Vidéo</a>
+    remarks: <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=rsVM-dZzT1E">Vidéo</a>
     event_url: http://www.meetup.com/fr-FR/afsy-sfpot/events/228053900/
 -
     title: "Index SQL: Born to B-Tree"
