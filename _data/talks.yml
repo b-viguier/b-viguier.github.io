@@ -4,7 +4,7 @@
     date: 26 Octobre 2018
     event: ForumPhp 2018
     event_url: https://event.afup.org/forumphp2018/programme/#2752
-    remarks: <i class="fab fa-youtube"></i> <a href="https://youtu.be/7TvIIt4c8uY">Vidéo</a>
+    youtube_id: 7TvIIt4c8uY
 -
     title: Generators and Asynchronous Computation
     url: downloads/talks/Afup-GeneratorsAndAsync.pdf
@@ -47,14 +47,15 @@
     date: 28 Octobre 2016
     event: ForumPhp 2016
     event_url: http://event.afup.org/forum-php-2016/programme/#1912
-    remarks: <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=kSlYXpezjIQ">Vidéo</a>
+    youtube_id: kSlYXpezjIQ
 -
     title: Array Tips
     url: downloads/talks/ForumPhp-Array-Tips.pdf
     date: 27 Octobre 2016
     event: ForumPhp 2016
     event_url: http://event.afup.org/forum-php-2016/programme/#1976
-    remarks: <i class="fab fa-youtube"></i> <a href="https://youtu.be/QfjRtTfhM4U?t=1277">Vidéo</a>
+    youtube_id: QfjRtTfhM4U
+    #remarks: <i class="fab fa-youtube"></i> <a href="https://youtu.be/QfjRtTfhM4U?t=1277">Vidéo</a>
 -
     title: Une donnée presque parfaite
     url: downloads/talks/AfupLyon-UneDonnéePresqueParfaite.pdf
@@ -91,7 +92,6 @@
     url: http://slides.com/abenassy/bbl-yproximite
     date: 9 juin 2015
     event: BBL @YProximité
-    remarks: <i class="fa fa-users"></i> feat. <a href='https://twitter.com/ABenassy'>@ABenassy</a>
     event_url: http://www.brownbaglunch.fr
 -
     title: Jamais trop tôt pour le cloud

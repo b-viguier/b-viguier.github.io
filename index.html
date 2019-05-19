@@ -6,13 +6,13 @@ layout: default
     <div class="jumbotron text-center">
         <h1>
             Benoit Viguier<br/>
-            <small>Développeur</small>
+            <small class="text-monospace">// Developper</small>
         </h1>
     </div>
 
-    <section class="text-center">
+    <section>
         <div class="page-header">
-            <h1>Moi</h1>
+            <h1>Me</h1>
         </div>
         <div class="row" id="links-section">
             {% for link in site.data.links %}
@@ -26,37 +26,42 @@ layout: default
         </div>
     </section>
 
-    <section class="text-center">
+    <section>
         <div class="page-header">
             <h1>Talks</h1>
         </div>
-        <p class="text-warning">
-            <strong>Avertissement:</strong>
-            Ces slides sont surtout faits pour être présentés, et non lus&hellip;
+        <p class="bg-warning">
+            <i class="fas fa-exclamation-triangle"></i><strong>Disclaimer:</strong>
+            Following slides are designed to be presented, not read…
         </p>
         <div class="row" id="talks-section">
             {% for talk in site.data.talks %}
-                <div class="col-sm-6 col-md-4">
-                    <ul class="alert alert-info fa-ul">
-                        <li>
-                            <i class="fa fa-comment"></i>
-                            <a href="{{ talk.url }}" alt="{{ talk.title }}">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 p-3">
+                    <div class="card h-100 bg-light">
+                        <div class="card-header">
+                            <a href="{{ talk.event_url }}">{{ talk.event }}</a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
                                 {{ talk.title }}
-                            </a>
-                        </li>
-                        <li>
+                            </h5>
+
+                            <p>
+                                <a href="{{ talk.url }}" alt="slides"><i class="far fa-file-pdf"></i> Slides</a>
+                            </p>
+
+                        </div>
+                        {% if talk.youtube_id %}
+                        <a href="https://youtu.be/{{ talk.youtube_id}}">
+                            <img class="card-img-top" src="http://img.youtube.com/vi/{{ talk.youtube_id}}/mqdefault.jpg" alt="Video">
+                        </a>
+                        {% endif %}
+                        <div class="card-footer text-muted">
                             <i class="fa fa-calendar"></i>
                             {{ talk.date }}
-                        </li>
-                        <li>
-                            <i class="fa fa-map-marker"></i>
-                            <a href="{{ talk.event_url }}">{{ talk.event }}</a>
-                        </li>
-                        <li>
-                            {{ talk.remarks }}&nbsp;
-                        </li>
-                    </ul>
-                </div>
+                        </div>
+                    </div>
+            </div>
             {% endfor %}
         </div>
     </section>
