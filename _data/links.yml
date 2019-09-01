@@ -1,9 +1,4 @@
 -
-    title: Home
-    text: Lyon, France
-    icon: fa fa-home
-    url: https://www.google.fr/maps/place/Lyon
--
     title: Twitter
     text: "@b_viguier"
     icon: fab fa-twitter
@@ -14,17 +9,12 @@
     icon: fab fa-github
     url: https://github.com/b-viguier
 -
-    title: Bitbucket
-    text: benoit_viguier
-    icon: fab fa-bitbucket
-    url: https://bitbucket.org/benoit_viguier
--
     title: Linkedin
     text: bviguier
     icon: fab fa-linkedin
     url: https://fr.linkedin.com/in/bviguier
 -
-    title: Resume,
-    text: CV
-    icon: fa fa-file
-    url: downloads/CV_Viguier__public.pdf
+    title: Home
+    text: Lyon, France
+    icon: fas fa-map-marker-alt
+    url: https://www.google.fr/maps/place/Lyon

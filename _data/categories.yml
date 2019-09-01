@@ -1,0 +1,20 @@
+-
+    id: php
+    title: Php
+    color: "#4d85d1"
+-
+    id: async
+    title: Asynchronous
+    color: "#5aba59"
+-
+    id: js
+    title: Javascript
+    color: "#df2d4f"
+-
+    id: music
+    title: Music
+    color: "#8156a7"
+-
+    id: misc
+    title: Miscellaneous
+    color: "#444444"

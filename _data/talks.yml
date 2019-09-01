@@ -1,119 +1,208 @@
 -
     title: "Generators for Asynchronous Programming: User Manual"
-    url: downloads/talks/ForumPhp-AsyncGenerators.pdf
-    date: 26 Octobre 2018
+    slides_url: downloads/talks/ForumPhp-AsyncGenerators.pdf
+    slides_lang: en
+    date: 26th Octobre 2018
     event: ForumPhp 2018
-    event_url: https://event.afup.org/forumphp2018/programme/#2752
-    youtube_id: 7TvIIt4c8uY
+    event_url: https://afup.org/talks/2752-generateurs-et-programmation-asynchrone-mode-d-emploi
+    video_url: https://youtu.be/7TvIIt4c8uY
+    description: "Les générateurs sont souvent réduits à une simplification des itérateurs, mais ils sont surtout très pratiques et performants pour executer des traitements asynchrones. Nous aborderons le fonctionnement d’un programme asynchrone, le rôle des promises, et approfondirons l'utilisation des générateurs pour simplifier l’écriture de notre code. Enfin nous détaillerons des cas pratiques « prêts à l’emploi » pour tout type d’application, avec un retour d’expérience sur ce qui a été mis en place chez M6Web."
+    lang: fr
+    categories:
+        - php
+        - async
 -
     title: Generators and Asynchronous Computation
-    url: downloads/talks/Afup-GeneratorsAndAsync.pdf
-    date: 12 Juin 2018
+    slides_url: downloads/talks/Afup-GeneratorsAndAsync.pdf
+    slides_lang: en
+    date: 12th June 2018
     event: Afup Lyon
     event_url: https://www.meetup.com/fr-FR/afup-lyon-php/events/251104151/
+    description: "Un générateur est souvent présenté comme une simplification d'un itérateur, mais il est aussi un outil très performant pour exécuter des traitements asynchrones. Nous aborderons le fonctionnement d’un programme asynchrone, le rôle des promises, et comment utiliser efficacement les générateurs pour simplifier l’écriture de notre code, en s'épargnant l’enfer des callbacks."
+    lang: fr
+    categories:
+        - php
+        - async
 -
     title: Async… and Generators… chronous
-    url: downloads/talks/M6WLFT-AsyncGenerators.pdf
-    date: 27 Avril 2018
+    slides_url: downloads/talks/M6WLFT-AsyncGenerators.pdf
+    slides_lang: en
+    date: 27th April 2018
     event: M6Web LFT
     event_url: http://tech.m6web.fr
+    description: ""
+    lang: fr
+    categories:
+        - php
+        - async
 -
     title: Prolog
-    url: downloads/talks/AfupLyon-Prolog.pdf
-    date: 13 Décembre 2017
+    slides_url: downloads/talks/AfupLyon-Prolog.pdf
+    slides_lang: en
+    date: 13th Decembre 2017
     event: Afup Lyon
     event_url: https://www.meetup.com/fr-FR/afup-lyon-php/events/245586341/
+    description: "Petite visite guidée de cette autre manière de penser un programme."
+    lang: fr
+    categories:
+        - misc
 -
     title: Le Web à l'heure du MIDI
-    url: downloads/talks/M6WLFT-MidiHour.pdf
-    date: 29 Septembre 2017
+    slides_url: downloads/talks/M6WLFT-MidiHour.pdf
+    slides_lang: fr
+    date: 29th Septembre 2017
     event: M6Web LFT
     event_url: http://tech.m6web.fr
+    description: ""
+    lang: fr
+    categories:
+        - js
+        - music
 -
     title: Le Web à l'heure du MIDI
-    url: downloads/talks/LyonJS-MidiHour.pdf
-    date: 31 Mai 2017
+    slides_url: downloads/talks/LyonJS-MidiHour.pdf
+    slides_lang: fr
+    date: 31st May 2017
     event: Lyon JS
     event_url: https://www.meetup.com/fr-FR/LyonJS/events/239827652/
+    description: "Le MIDI est un protocole créé en 1983 permettant de faire communiquer des instruments ou logiciels de musique ensemble. Fin 2012, le W3C commence à rédiger une spécification pour que les navigateurs puissent utiliser les interfaces MIDI, et Chrome intègre cette API en 2015. Les applications sont nombreuses : composition, apprentissage de la musique, piloter des applications, jouer… Que vous soyez mélomane ou simple curieux, voici un tour d’horizon de ce qu’est le midi, ce qu’on peut en faire, et comment le faire dans votre navigateur."
+    lang: fr
+    categories:
+        - js
+        - music
 -
     title: "XDebug: un ami qui vous veut du bien"
-    url: downloads/talks/M6WLFT-Xdebug.pdf
-    date: 24 Février 2017
+    slides_url: downloads/talks/M6WLFT-Xdebug.pdf
+    slides_lang: fr
+    date: 24th February 2017
     event: M6Web LFT
     event_url: http://tech.m6web.fr
+    description: ""
+    lang: fr
+    categories:
+        - php
+
 -
     title: Une donnée presque parfaite
-    url: downloads/talks/ForumPhp-Une-Donnée-Presque-Parfaite.pdf
-    date: 28 Octobre 2016
+    slides_url: downloads/talks/ForumPhp-Une-Donnée-Presque-Parfaite.pdf
+    slides_lang: fr
+    date: 28th Octobre 2016
     event: ForumPhp 2016
-    event_url: http://event.afup.org/forum-php-2016/programme/#1912
-    youtube_id: kSlYXpezjIQ
+    event_url: https://afup.org/talks/1912-une-donnee-presque-parfaite
+    video_url: https://youtu.be/kSlYXpezjIQ
+    description: "Pour cet épisode, c’est l’équipe Backend qui prépare les données chez 6play.fr. Mais attention, les équipes Frontend (Web, Player, Mobile et IpTv) seront là pour les noter: le contenu des données, sa légèreté, sa fraîcheur, l’attente entre les appels… chaque équipe a ses propres exigences. Sans oublier l’équipe Infra qui attend toujours un service irréprochable, sous peine d’utiliser son droit de véto. Le menu comportera des mets locaux (Php7, Sql, ElasticSearch…) mais proposera aussi des classiques revisités (files d’attentes, workers, dénormalisation des données…). En bonus, vous découvrirez le bêtisier du service, et des recettes à faire à la maison. Bonnes données, et bonne API bien sûr."
+    lang: fr
+    categories:
+        - php
 -
     title: Array Tips
-    url: downloads/talks/ForumPhp-Array-Tips.pdf
-    date: 27 Octobre 2016
+    slides_url: downloads/talks/ForumPhp-Array-Tips.pdf
+    slides_lang: en
+    date: 27th Octobre 2016
     event: ForumPhp 2016
     event_url: http://event.afup.org/forum-php-2016/programme/#1976
-    youtube_id: QfjRtTfhM4U
-    #remarks: <i class="fab fa-youtube"></i> <a href="https://youtu.be/QfjRtTfhM4U?t=1277">Vidéo</a>
+    video_url: https://youtu.be/QfjRtTfhM4U?t=1277
+    description: "À mi-chemin entre le puzzle et la programmation fonctionnelle, les Array Tips© sont surtout une excuse pour découvrir les fonctions injustement méconnues (ou peu documentées) sur les tableaux Php. La règle est simple: une seule instruction de pur Php, sans fonctions anonymes. Jusqu’où peut-on aller, et à quel moment s’arrêter? Du pire au meilleur de Php! Hip Hip Hip? Array!"
+    lang: fr
+    categories:
+        - php
 -
     title: Une donnée presque parfaite
-    url: downloads/talks/AfupLyon-UneDonnéePresqueParfaite.pdf
-    date: 12 Octobre 2016
+    slides_url: downloads/talks/AfupLyon-UneDonnéePresqueParfaite.pdf
+    slides_lang: fr
+    date: 12th Octobre 2016
     event: Afup Lyon
     event_url: http://lyon.afup.org/2016/09/21/conferences-sur-la-gestion-de-donnees-publication-devents-dans-rabbitmq-le-12-octobre-a-19h/
+    description: "Pour cet épisode, c’est l’équipe Backend qui prépare les données chez 6play.fr. Mais attention, les équipes Frontend (Web, Player, Mobile et IpTv) seront là pour les noter: le contenu des données, sa légèreté, sa fraîcheur, l’attente entre les appels… chaque équipe a ses propres exigences. Sans oublier l’équipe Infra qui attend toujours un service irréprochable, sous peine d’utiliser son droit de véto. Le menu comportera des mets locaux (Php7, Sql, ElasticSearch…) mais proposera aussi des classiques revisités (files d’attentes, workers, dénormalisation des données…). En bonus, vous découvrirez le bêtisier du service, et des recettes à faire à la maison. Bonnes données, et bonne API bien sûr."
+    lang: fr
+    categories:
+        - php
 -
     title: Array Tips
-    url: downloads/talks/M6WLFT-ArrayTips.pdf
-    date: 1er Avril 2016
+    slides_url: downloads/talks/M6WLFT-ArrayTips.pdf
+    slides_lang: en
+    date: 1st April 2016
     event: M6Web LFT
     event_url: http://tech.m6web.fr
+    description: ""
+    lang: fr
+    categories:
+        - php
 -
     title: Array Tips
-    url: downloads/talks/Afup-ArrayTips.pdf
-    date: 23 mars 2016
+    slides_url: downloads/talks/Afup-ArrayTips.pdf
+    slides_lang: en
+    date: 23rd march 2016
     event: Afup Lyon
     event_url: http://www.meetup.com/fr-FR/afup-lyon-php/events/229421266/
+    description: ""
+    lang: fr
+    categories:
+        - php
 -
     title: "Index SQL: Born to B-Tree"
-    url: downloads/talks/SfPot-IndexSqlBorn2BTree.pdf
-    date: 26 janvier 2016
+    slides_url: downloads/talks/SfPot-IndexSqlBorn2BTree.pdf
+    slides_lang: en
+    date: 26th january 2016
     event: SfPot Lyon
-    remarks: <i class="fab fa-youtube"></i> <a href="https://www.youtube.com/watch?v=rsVM-dZzT1E">Vidéo</a>
+    video_url: https://youtu.be/rsVM-dZzT1E
     event_url: http://www.meetup.com/fr-FR/afsy-sfpot/events/228053900/
+    description: "Peu importe que vous utilisiez du SQL ou du NoSQL, vos données doivent être indexées pour garantir des temps de recherche acceptables sur de grands volumes. Dans un monde parfait, tout serait indexé sans que nous ayons à nous en soucier. Dans la vraie vie, tout est affaire de compromis et il est difficile de faire les bons choix sans savoir ce qu'il se passe vraiment dans un index. Quand et comment indexer nos données, pour quel type de requêtes? Plongeons au cœur d’un index SQL pour mieux comprendre…"
+    lang: fr
+    categories:
+        - misc
 -
     title: "Index SQL: Born to B-Tree"
-    url: downloads/talks/M6WLFT-IndexSqlBorn2BTree.pdf
-    date: 27 novembre 2015
+    slides_url: downloads/talks/M6WLFT-IndexSqlBorn2BTree.pdf
+    slides_lang: en
+    date: 27th novembre 2015
     event: M6Web LFT
     event_url: http://tech.m6web.fr
--
-    title: From Legacy to Symfony
-    url: http://slides.com/abenassy/bbl-yproximite
-    date: 9 juin 2015
-    event: BBL @YProximité
-    event_url: http://www.brownbaglunch.fr
+    description: "Peu importe que vous utilisiez du SQL ou du NoSQL, vos données doivent être indexées pour garantir des temps de recherche acceptables sur de grands volumes. Dans un monde parfait, tout serait indexé sans que nous ayons à nous en soucier. Dans la vraie vie, tout est affaire de compromis et il est difficile de faire les bons choix sans savoir ce qu'il se passe vraiment dans un index. Quand et comment indexer nos données, pour quel type de requêtes? Plongeons au cœur d’un index SQL pour mieux comprendre…"
+    lang: fr
+    categories:
+        - misc
 -
     title: Jamais trop tôt pour le cloud
-    url: downloads/talks/Afup-NeverTooYoung4Cloud.pdf
-    date: 6 mai 2015
+    slides_url: downloads/talks/Afup-NeverTooYoung4Cloud.pdf
+    slides_lang: fr
+    date: 6th may 2015
     event: Afup Lyon
     event_url: http://lyon.afup.org/2015/04/13/conference-sur-aws-le-6-mai-a-19h/
+    description: "Le cloud est utilisé par tous les grands du web mais il ne leur est pas réservé, nul besoin d’attendre plus tard pour déployer son application dans le nuage. Le principal avantage pour une petite entreprise, c’est la flexibilité. Pouvoir n’utiliser que ce dont on a besoin, tout en sachant qu’on peut rapidement passer à l’échelle si besoin. Voici un retour d’expérience sur un hébergement full AWS en startup: pourquoi le cloud, comment migrer pas à pas, comment passer à l’échelle, et combien ça coûte."
+    lang: fr
+    categories:
+        - misc
 -
     title: El framework de la muerte
-    url: downloads/talks/HumanTalks-ElFrameworkDeLaMuerte.pdf
-    date: 9 décembre 2014
+    slides_url: downloads/talks/HumanTalks-ElFrameworkDeLaMuerte.pdf
+    slides_lang: fr
+    date: 9th decembre 2014
     event: HumanTalks
     event_url: http://humantalks.com/talks/534-el-framework-de-la-muerte
+    description: "Lors de la dernière session HumanTalks Lyon, il a été suggéré de présenter le “meilleur du pire“ de ce que l'on a pu voir en programmation: Challenge Accepted! Notre équipe a travaillé plusieurs mois avec un Framework “Maison“ développé par un prestataire, et l'expérience fut assez douloureuse. Le but de ce talk n'est pas de critiquer gratuitement, mais plutôt d'analyser les erreurs commises, leurs conséquences, et de comprendre les raisons qui peuvent pousser un développeur à faire de mauvais choix en pensant bien faire."
+    lang: fr
+    categories:
+        - misc
 -
     title: "Faire coder les candidats: bilan"
-    url: downloads/talks/HumanTalks-TestTechTel.pdf
-    date: 18 novembre 2014
+    slides_url: downloads/talks/HumanTalks-TestTechTel.pdf
+    slides_lang: fr
+    date: 18th novembre 2014
     event: HumanTalks
     event_url: http://humantalks.com/talks/508-faire-coder-les-candidats-en-pre-entretien-bilan
+    description: "Difficile de reconnaître un “bon“ développeur juste sur la base d'un CV. Cela fait bientôt 2 ans que je fais passer systématiquement un test technique par téléphone via un GoogleDoc, en guise de “présélection“ pour les stages ou jobs. Voici une rapide présentation du “pourquoi“, du “comment“ et surtout des enseignements que j'ai pu en tirer."
+    lang: fr
+    categories:
+        - misc
 -
     title: "Mercurial: l'autre DVCS"
-    url: https://bitbucket.org/benoit_viguier/hg-slideshow
-    date: 14 octobre 2014
+    slides_url: https://bitbucket.org/benoit_viguier/hg-slideshow
+    slides_lang: fr
+    date: 14th octobre 2014
     event: HumanTalks
     event_url: http://www.lyonjug.org/evenements/docker
+    description: ""
+    lang: fr
+    categories:
+        - misc
