@@ -10,6 +10,11 @@ https://b-viguier.github.io
 
 `bundle exec jekyll serve`
 
+To share your local server on network:
+```
+bundle exec jekyll serve --host=0.0.0.0
+```
+
 ## Update
 `bundle lock --update`
 
