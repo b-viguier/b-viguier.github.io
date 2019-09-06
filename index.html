@@ -99,17 +99,18 @@ layout: default
                 {% for article in site.data.articles %}
                 <section class="post">
                     <header class="post-header">
-
-                        <div class="post-description">
-                            <h2 class="post-title"><a href="{{ article.url }}">{{ article.title }}</a></h2>
-                            <p class="post-meta">
-                                {{ article.date }} -  <small>[{{article.lang}}] </small>
-                            </p>
-                            <a class="top-button" href="#">
-                                <i class="fas fa-chevron-up"></i>
-                            </a>
-                        </div>
+                        <h2 class="post-title"><a href="{{ article.url }}">{{ article.title }}</a></h2>
+                        <p class="post-meta">
+                            {{ article.date }} -  <small>[{{article.lang}}] </small>
+                        </p>
                     </header>
+
+                    <div class="post-description">
+                        <p>{{article.description}}</p>
+                        <a class="top-button" href="#">
+                            <i class="fas fa-chevron-up"></i>
+                        </a>
+                    </div>
 
                 </section>
                 {% endfor %}

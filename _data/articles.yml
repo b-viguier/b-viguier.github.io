@@ -3,18 +3,29 @@
     url: https://b-viguier.github.io/Afup-Workshop-Async/
     date: 14th June 2018
     lang: en
+    description: This repository contains a workshop written in Php, to understand how works asynchronous computation with generators.
 -
     title: "Elasticsearch: la grande migration"
     url: http://tech.m6web.fr/migration-elasticsearch/
     date: 1st June 2017
     lang: fr
+    description: Pour assurer la scalabilité des performances de l’API 6play, les données suivent tout un workflow pour être dénormalisées et stockées dans Elasticsearch. Mi-2016, nous avons identifié des dysfonctionnements majeurs sur nos serveurs, entrainant parfois des interruptions de service. Suite à quelques mesures d’urgences pour stabiliser l’existant, nous avons entrepris de mettre à jour notre version d’Elasticsearch pour bénéficier des dernières améliorations. Nous étions alors sur la version 1.7, et souhaitions passer en version 2.0. Après plusieurs mois d’efforts pour effectuer cette migration sans interruption de service ni gel technique, nous voici en version… 5.2! Voici le récit de cette grande migration, et ce que l’on a appris tout au long de ce périple.
 -
     title: Symfony Live Paris 2017
     url: http://tech.m6web.fr/sf-live-2017/
     date: 3rd April 2017
     lang: en
+    description: In March we attended Symfony Live Paris 2017, and it was very interesting. Here are some special feedbacks about some of our favorite talks.
 -
     title: Php perd sa mémoire ?
     url: http://tech.wizaplace.com/posts/php-copy-on-write
     date: 22nd September 2014
     lang: fr
+    description: L’avantage d’un langage interprété, c’est qu’il n’est pas nécessaire d’allouer ou de désallouer la mémoire, l’interpréteur le fait tout seul ! Mais il ne le fait pas forcément de la manière dont on s’y attend, et cela peut avoir quelques effets de bords surprenants.
+-
+    title: A provably robust and efficient algorithm forreconstruction using structured light
+    url: https://liris.cnrs.fr/Documents/Liris-3285.pdf
+    date: 28th November 2007
+    lang: en
+    description: This paper presents a robust solution to the problems underlying real-time movement tracking in the medical domain, and more precisely inthe course of a radiotherapy treatment. However, a large number of themethods used to reconstruct and visualize movements (or acquire datapertaining to them), is inadequate for the medical environment consid-ered in this paper. The general non-invasive scheme we have adopted isto project light dots on to a scene (e.g.,a patient lying on a table), filmedby two cameras. The resolution of correspondances betweensourceandobservedfeatures is modeled using amatch graphand implemented withanO(nlogn) algorithm (nthe number of dots), which only operates ongeometric constraints (epipolar geometry), without making any assump-tion as to the continuity or homogeneity of the observed surface(s), orpossible occlusions in the scene.
+
