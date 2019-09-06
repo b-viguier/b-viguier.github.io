@@ -22,6 +22,9 @@ layout: default
                         <a class="pure-button" href="#articles" alt="articles">
                             Articles
                         </a>
+                        <a class="pure-button" href="#misc" alt="miscellaneous">
+                            Misc.
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -107,6 +110,29 @@ layout: default
 
                     <div class="post-description">
                         <p>{{article.description}}</p>
+                        <a class="top-button" href="#">
+                            <i class="fas fa-chevron-up"></i>
+                        </a>
+                    </div>
+
+                </section>
+                {% endfor %}
+            </div>
+
+            <div class="posts">
+                <h1 id="misc" class="content-subhead">Miscellaneous</h1>
+
+                {% for misc in site.data.misc %}
+                <section class="post">
+                    <header class="post-header">
+                        <h2 class="post-title"><a href="{{ misc.url }}">{{ misc.title }}</a></h2>
+                        <p class="post-meta">
+                            {{ misc.date }} -  <small>[{{misc.lang}}] </small>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>{{misc.description}}</p>
                         <a class="top-button" href="#">
                             <i class="fas fa-chevron-up"></i>
                         </a>

@@ -1,0 +1,12 @@
+-
+    title: "[Podcast] Démystifier la programmation asynchrone en PHP"
+    url: https://soundcloud.com/podcastecho/e27-demystifier-la-programmation-asynchrone-en-php-avec-benoit-viguier
+    date: 20th November 2018
+    description: "En Octobre dernier, Benoit Viguier (twitter.com/b_viguier) donnait une conférence au Forum PHP (event.afup.org/forumphp2018/) sur l'asynchrone en PHP (www.youtube.com/watch?v=7TvIIt4c8uY). Nous avons profité de ce rendez-vous pour qu'il nous aide à démystifier cette problématique qui semble à première vue destiné au monde du JavaScript. Benoit nous raconte son parcours avant de devenir lead développeur chez M6Web, les problématiques qu'il cherche à résoudre avec son équipe et ce qui l'a conduit à explorer l'asynchrone en PHP."
+    lang: fr
+-
+    title: "[Video] Convergence project"
+    url: https://www.youtube.com/watch?v=UDT2j8iLlRc
+    date: 24th June 2012
+    description: "An aborted video game technology, where you can see my head in 3D on a Playstation 3."
+    lang: en
