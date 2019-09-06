@@ -147,6 +147,10 @@ h3 {
     text-shadow: 0 1px 1px #333;
 }
 
+.top-button {
+    float: right;
+}
+
 .footer {
     padding: 1em 0;
 }
