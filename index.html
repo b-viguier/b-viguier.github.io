@@ -126,9 +126,11 @@ layout: default
                 <section class="post">
                     <header class="post-header">
                         <h2 class="post-title"><a href="{{ misc.url }}">{{ misc.title }}</a></h2>
+                        {% if misc.date %}
                         <p class="post-meta">
                             {{ misc.date }} -  <small>[{{misc.lang}}] </small>
                         </p>
+                        {% endif %}
                     </header>
 
                     <div class="post-description">

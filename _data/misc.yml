@@ -1,4 +1,14 @@
 -
+    title: "[Project] PhPresent"
+    url: https://github.com/b-viguier/PhPresent
+    description: "PhPresent is a library allowing to create a slideshow program in Php, in the same way that RevealJs for Javascript. It is possible thanks to the Php-SDL extension and Imagick extension."
+    lang: en
+-
+    title: "[Project] Tornado"
+    url: https://github.com/M6Web/Tornado
+    description: "Tornado is composed of several interfaces to write asynchronous programs using generators. This library provides adapters for popular asynchronous frameworks (ReactPhp, Amp) and built-in adapters to understand how to write your own."
+    lang: en
+-
     title: "[Podcast] Démystifier la programmation asynchrone en PHP"
     url: https://soundcloud.com/podcastecho/e27-demystifier-la-programmation-asynchrone-en-php-avec-benoit-viguier
     date: 20th November 2018
