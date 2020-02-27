@@ -1,4 +1,16 @@
 -
+    title: "Why and How to use Generators for Asynchronous Programming"
+    slides_url: downloads/talks/ConFoo2020-AsyncGenerators.pdf
+    slides_lang: en
+    date: 27th February 2020
+    event: ConFoo 2020
+    event_url: https://confoo.ca/fr/yul2020/session/why-and-how-to-use-generators-for-asynchronous-programming
+    description: "Generators are often described as a simplification of iterators pattern, but they are also very powerful to perform asynchronous treatments. We will dive into event loops and promises to understand why and how generators can help us to write maintainable asynchronous functions, especially in Php. We will conclude with some concrete use cases from our experience at M6 (French media group)."
+    lang: en
+    categories:
+        - php
+        - async
+-
     title: "Graphical Php"
     slides_url: https://github.com/b-viguier/ForumPhp2019-LT/raw/master/ForumPhp2019-LT.pdf
     slides_lang: en
