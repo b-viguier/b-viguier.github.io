@@ -1,4 +1,16 @@
 -
+    title: "One year of asynchronous PHP in production"
+    slides_url: downloads/talks/ConFoo2020-AsynchronousPhpInProduction.pdf
+    slides_lang: en
+    date: 28th February 2020
+    event: ConFoo 2020
+    event_url: https://confoo.ca/fr/yul2020/session/one-year-of-asynchronous-php-in-production
+    description: "Yes, it’s possible to use asynchronous programming in PHP and it can massively improve applications velocity. But if it was so simple everybody would already use it. Our team started to use this paradigm one year ago, it was a success in many ways but we faced a lot of questions: which applications are suited for this? How to train your team? Which tools are available? Here our feedback, from daily developments to production."
+    lang: en
+    categories:
+        - php
+        - async
+-
     title: "Why and How to use Generators for Asynchronous Programming"
     slides_url: downloads/talks/ConFoo2020-AsyncGenerators.pdf
     slides_lang: en
