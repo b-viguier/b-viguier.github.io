@@ -18,3 +18,11 @@
     id: misc
     title: Miscellaneous
     color: "#444444"
+-
+    id: API
+    title: API
+    color: "#000000"
+-
+    id: SDL
+    title: SDL
+    color: "#6E7889"
