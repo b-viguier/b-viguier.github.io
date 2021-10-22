@@ -17,6 +17,7 @@
     date: 24th June 2020
     event: AfupDay 2020
     event_url: https://event.afup.org/afup-day-2020/afup-day-2020-lyon/programme/#3241
+    video_url: https://youtu.be/Y_umU8mTWho
     description: "Votre API est confrontée à des contraintes techniques mais elle doit surtout répondre à vos problématiques métier qui ne cessent d'évoluer. Nous avons souvent vécu cette situation pour 6play (service de Replay du Groupe M6), et il nous a fallu plusieurs générations d'API avant d'arriver à une version adaptée à nos besoins. Micro-services, Rest/GraphQL, Developer eXperience… Un récit et des conseils pragmatiques pour concevoir et maintenir votre API."
     lang: fr
     categories:
