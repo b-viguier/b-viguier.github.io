@@ -1,8 +1,21 @@
 -
+    title: "OpenTelemetry: vers un standard pour surveiller vos applications"
+    slides_url: downloads/talks/ForumPhp2022-OpenTelemetry.pdf
+    slides_lang: fr
+    date: October 13th 2021
+    event: ForumPhp 2022
+    event_url: "https://event.afup.org/forum-php-2022/programme/#3977"
+    video_url: ~
+    description: "Là, maintenant, tout de suite, êtes-vous capable de dire si votre site internet fonctionne correctement ? Et en cas d’incident en pleine nuit, pouvez-vous déterminer la chronologie des évènements ? C’est à ces questions que la télémétrie apporte une réponse, en instrumentant votre code et en envoyant les données collectées dans un outil d’analyse. Mais quel est le meilleur ? Est ce qu’il existe des solutions (presque) gratuites ? Peut-on changer d’avis facilement ? C’est là qu’OpenTelemetry intervient. OpenTelemetry propose une API de télémétrie, indépendante du langage et indépendante du service d’analyse utilisé. Fortement encouragé (et déjà supporté!) par les principaux acteurs du marché, poussé par une communauté active, ce protocole a tout pour devenir un standard de communication pour la télémétrie. Dans cette conférence nous aborderons les concepts fondamentaux de cette API, l’écosystème PHP existant, ainsi que des idées à mettre en pratique (et en production !) dès la semaine suivante."
+    lang: fr
+    categories:
+        - php
+        - telemetry
+-
     title: "Fiber: the open door to asynchronous"
     slides_url: downloads/talks/ForumPhp2021-Fiber.pdf
     slides_lang: en
-    date: 22nd October 2021
+    date: October 22nd 2021
     event: ForumPhp 2021
     event_url: "https://event.afup.org/forum-php-2021/programme/#3794"
     video_url: https://youtu.be/KkRo7fAC28s
@@ -15,7 +28,7 @@
     title: "6play_API-v2-Final(1).doc"
     slides_url: downloads/talks/AfupDay2020-API-Journey.pdf
     slides_lang: fr
-    date: 24th June 2020
+    date: June 24th 2020
     event: AfupDay 2020
     event_url: https://event.afup.org/afup-day-2020/afup-day-2020-lyon/programme/#3241
     video_url: https://youtu.be/Y_umU8mTWho
@@ -28,7 +41,7 @@
     title: "One year of asynchronous PHP in production"
     slides_url: downloads/talks/ConFoo2020-AsynchronousPhpInProduction.pdf
     slides_lang: en
-    date: 28th February 2020
+    date: February 28th 2020
     event: ConFoo 2020
     event_url: https://confoo.ca/fr/yul2020/session/one-year-of-asynchronous-php-in-production
     description: "Yes, it’s possible to use asynchronous programming in PHP and it can massively improve applications velocity. But if it was so simple everybody would already use it. Our team started to use this paradigm one year ago, it was a success in many ways but we faced a lot of questions: which applications are suited for this? How to train your team? Which tools are available? Here our feedback, from daily developments to production."
@@ -40,7 +53,7 @@
     title: "Why and How to use Generators for Asynchronous Programming"
     slides_url: downloads/talks/ConFoo2020-AsyncGenerators.pdf
     slides_lang: en
-    date: 27th February 2020
+    date: February 27th 2020
     event: ConFoo 2020
     event_url: https://confoo.ca/fr/yul2020/session/why-and-how-to-use-generators-for-asynchronous-programming
     description: "Generators are often described as a simplification of iterators pattern, but they are also very powerful to perform asynchronous treatments. We will dive into event loops and promises to understand why and how generators can help us to write maintainable asynchronous functions, especially in Php. We will conclude with some concrete use cases from our experience at M6 (French media group)."
@@ -52,7 +65,7 @@
     title: "Graphical Php"
     slides_url: https://github.com/b-viguier/ForumPhp2019-LT/raw/master/ForumPhp2019-LT.pdf
     slides_lang: en
-    date: 24th October 2019
+    date: October 24th 2019
     event: ForumPhp 2019
     event_url: "https://afup.org/talks/3190-lightning-talks"
     video_url: https://youtu.be/TZ1RYw2NkG4?t=1663
@@ -65,7 +78,7 @@
     title: "One year of asynchronous PHP in production"
     slides_url: downloads/talks/ForumPhp2019-AsynchronousPhpInProduction.pdf
     slides_lang: en
-    date: 25th October 2019
+    date: October 25th 2019
     event: ForumPhp 2019
     event_url: "https://afup.org/talks/3101-une-annee-de-php-asynchrone-en-production"
     video_url: https://youtu.be/R6ldQzXScCs
@@ -78,7 +91,7 @@
     title: "One year of asynchronous PHP in production"
     slides_url: downloads/talks/AfupLyon-AsynchronousPhpInProduction.pdf
     slides_lang: en
-    date: 10th October 2019
+    date: October 10th 2019
     event: Afup Lyon
     event_url: "https://www.meetup.com/fr-FR/afup-lyon-php/events/265085756/"
     description: "Oui, il est tout à fait possible de faire de la programmation asynchrone en PHP et il existe des librairies matures pour le mettre en place dans vos projets. Oui, ça peut améliorer considérablement la performance de vos applications, mais si c’était aussi simple tout le monde le ferait déjà. Cela fait plus d'an que les équipes de 6play ont franchit le pas sur certains projets et les applications asynchrones tiennent toutes leurs promesses en production, mais la mise en place a soulevé beaucoup de questions. À quels critères se fier pour rendre une application asynchrone? Comment former les équipes sur ces nouveaux paradigmes? Comment adapter les outils existants et comment gérer ce nouveau type de charge sur les serveurs? Voici notre retour d’expérience sur le PHP asynchrone, du développement à la production, en passant par la vie de tous les jours."
@@ -90,7 +103,7 @@
     title: "Generators for Asynchronous Programming: User Manual"
     slides_url: downloads/talks/ForumPhp-AsyncGenerators.pdf
     slides_lang: en
-    date: 26th October 2018
+    date: October 26th 2018
     event: ForumPhp 2018
     event_url: https://afup.org/talks/2752-generateurs-et-programmation-asynchrone-mode-d-emploi
     video_url: https://youtu.be/7TvIIt4c8uY
@@ -103,7 +116,7 @@
     title: Generators and Asynchronous Computation
     slides_url: downloads/talks/Afup-GeneratorsAndAsync.pdf
     slides_lang: en
-    date: 12th June 2018
+    date: June 12th 2018
     event: Afup Lyon
     event_url: https://www.meetup.com/fr-FR/afup-lyon-php/events/251104151/
     description: "Un générateur est souvent présenté comme une simplification d'un itérateur, mais il est aussi un outil très performant pour exécuter des traitements asynchrones. Nous aborderons le fonctionnement d’un programme asynchrone, le rôle des promises, et comment utiliser efficacement les générateurs pour simplifier l’écriture de notre code, en s'épargnant l’enfer des callbacks."
@@ -115,7 +128,7 @@
     title: Async… and Generators… chronous
     slides_url: downloads/talks/M6WLFT-AsyncGenerators.pdf
     slides_lang: en
-    date: 27th April 2018
+    date: April 27th 2018
     event: M6Web LFT
     event_url: http://tech.m6web.fr
     description: ""
@@ -127,7 +140,7 @@
     title: Prolog
     slides_url: downloads/talks/AfupLyon-Prolog.pdf
     slides_lang: en
-    date: 13th December 2017
+    date: December 13th 2017
     event: Afup Lyon
     event_url: https://www.meetup.com/fr-FR/afup-lyon-php/events/245586341/
     description: "Petite visite guidée de cette autre manière de penser un programme."
@@ -138,7 +151,7 @@
     title: Le Web à l'heure du MIDI
     slides_url: downloads/talks/M6WLFT-MidiHour.pdf
     slides_lang: fr
-    date: 29th September 2017
+    date: September 29th 2017
     event: M6Web LFT
     event_url: http://tech.m6web.fr
     description: ""
@@ -150,7 +163,7 @@
     title: Le Web à l'heure du MIDI
     slides_url: downloads/talks/LyonJS-MidiHour.pdf
     slides_lang: fr
-    date: 31st May 2017
+    date: May 31st 2017
     event: Lyon JS
     event_url: https://www.meetup.com/fr-FR/LyonJS/events/239827652/
     description: "Le MIDI est un protocole créé en 1983 permettant de faire communiquer des instruments ou logiciels de musique ensemble. Fin 2012, le W3C commence à rédiger une spécification pour que les navigateurs puissent utiliser les interfaces MIDI, et Chrome intègre cette API en 2015. Les applications sont nombreuses : composition, apprentissage de la musique, piloter des applications, jouer… Que vous soyez mélomane ou simple curieux, voici un tour d’horizon de ce qu’est le midi, ce qu’on peut en faire, et comment le faire dans votre navigateur."
@@ -174,7 +187,7 @@
     title: Une donnée presque parfaite
     slides_url: downloads/talks/ForumPhp-Une-Donnée-Presque-Parfaite.pdf
     slides_lang: fr
-    date: 28th October 2016
+    date: October 28th 2016
     event: ForumPhp 2016
     event_url: https://afup.org/talks/1912-une-donnee-presque-parfaite
     video_url: https://youtu.be/kSlYXpezjIQ
@@ -186,7 +199,7 @@
     title: Array Tips
     slides_url: downloads/talks/ForumPhp-Array-Tips.pdf
     slides_lang: en
-    date: 27th October 2016
+    date: October 27th 2016
     event: ForumPhp 2016
     event_url: http://event.afup.org/forum-php-2016/programme/#1976
     video_url: https://youtu.be/QfjRtTfhM4U?t=1277
@@ -198,7 +211,7 @@
     title: Une donnée presque parfaite
     slides_url: downloads/talks/AfupLyon-UneDonnéePresqueParfaite.pdf
     slides_lang: fr
-    date: 12th October 2016
+    date: October 12th 2016
     event: Afup Lyon
     event_url: http://lyon.afup.org/2016/09/21/conferences-sur-la-gestion-de-donnees-publication-devents-dans-rabbitmq-le-12-October-a-19h/
     description: "Pour cet épisode, c’est l’équipe Backend qui prépare les données chez 6play.fr. Mais attention, les équipes Frontend (Web, Player, Mobile et IpTv) seront là pour les noter: le contenu des données, sa légèreté, sa fraîcheur, l’attente entre les appels… chaque équipe a ses propres exigences. Sans oublier l’équipe Infra qui attend toujours un service irréprochable, sous peine d’utiliser son droit de véto. Le menu comportera des mets locaux (Php7, Sql, ElasticSearch…) mais proposera aussi des classiques revisités (files d’attentes, workers, dénormalisation des données…). En bonus, vous découvrirez le bêtisier du service, et des recettes à faire à la maison. Bonnes données, et bonne API bien sûr."
@@ -209,7 +222,7 @@
     title: Array Tips
     slides_url: downloads/talks/M6WLFT-ArrayTips.pdf
     slides_lang: en
-    date: 1st April 2016
+    date: April 1st 2016
     event: M6Web LFT
     event_url: http://tech.m6web.fr
     description: ""
@@ -220,7 +233,7 @@
     title: Array Tips
     slides_url: downloads/talks/Afup-ArrayTips.pdf
     slides_lang: en
-    date: 23rd March 2016
+    date: March 23rd 2016
     event: Afup Lyon
     event_url: http://www.meetup.com/fr-FR/afup-lyon-php/events/229421266/
     description: ""
@@ -231,7 +244,7 @@
     title: "Index SQL: Born to B-Tree"
     slides_url: downloads/talks/SfPot-IndexSqlBorn2BTree.pdf
     slides_lang: en
-    date: 26th January 2016
+    date: January 26th 2016
     event: SfPot Lyon
     video_url: https://youtu.be/rsVM-dZzT1E
     event_url: http://www.meetup.com/fr-FR/afsy-sfpot/events/228053900/
@@ -243,7 +256,7 @@
     title: "Index SQL: Born to B-Tree"
     slides_url: downloads/talks/M6WLFT-IndexSqlBorn2BTree.pdf
     slides_lang: en
-    date: 27th November 2015
+    date: November 27th 2015
     event: M6Web LFT
     event_url: http://tech.m6web.fr
     description: "Peu importe que vous utilisiez du SQL ou du NoSQL, vos données doivent être indexées pour garantir des temps de recherche acceptables sur de grands volumes. Dans un monde parfait, tout serait indexé sans que nous ayons à nous en soucier. Dans la vraie vie, tout est affaire de compromis et il est difficile de faire les bons choix sans savoir ce qu'il se passe vraiment dans un index. Quand et comment indexer nos données, pour quel type de requêtes? Plongeons au cœur d’un index SQL pour mieux comprendre…"
@@ -254,7 +267,7 @@
     title: Jamais trop tôt pour le cloud
     slides_url: downloads/talks/Afup-NeverTooYoung4Cloud.pdf
     slides_lang: fr
-    date: 6th May 2015
+    date: May 6th 2015
     event: Afup Lyon
     event_url: http://lyon.afup.org/2015/04/13/conference-sur-aws-le-6-mai-a-19h/
     description: "Le cloud est utilisé par tous les grands du web mais il ne leur est pas réservé, nul besoin d’attendre plus tard pour déployer son application dans le nuage. Le principal avantage pour une petite entreprise, c’est la flexibilité. Pouvoir n’utiliser que ce dont on a besoin, tout en sachant qu’on peut rapidement passer à l’échelle si besoin. Voici un retour d’expérience sur un hébergement full AWS en startup: pourquoi le cloud, comment migrer pas à pas, comment passer à l’échelle, et combien ça coûte."
@@ -265,7 +278,7 @@
     title: El framework de la muerte
     slides_url: downloads/talks/HumanTalks-ElFrameworkDeLaMuerte.pdf
     slides_lang: fr
-    date: 9th December 2014
+    date: December 9th 2014
     event: HumanTalks
     event_url: http://humantalks.com/talks/534-el-framework-de-la-muerte
     description: "Lors de la dernière session HumanTalks Lyon, il a été suggéré de présenter le “meilleur du pire“ de ce que l'on a pu voir en programmation: Challenge Accepted! Notre équipe a travaillé plusieurs mois avec un Framework “Maison“ développé par un prestataire, et l'expérience fut assez douloureuse. Le but de ce talk n'est pas de critiquer gratuitement, mais plutôt d'analyser les erreurs commises, leurs conséquences, et de comprendre les raisons qui peuvent pousser un développeur à faire de mauvais choix en pensant bien faire."
@@ -276,7 +289,7 @@
     title: "Faire coder les candidats: bilan"
     slides_url: downloads/talks/HumanTalks-TestTechTel.pdf
     slides_lang: fr
-    date: 18th November 2014
+    date: November 18th 2014
     event: HumanTalks
     event_url: http://humantalks.com/talks/508-faire-coder-les-candidats-en-pre-entretien-bilan
     description: "Difficile de reconnaître un “bon“ développeur juste sur la base d'un CV. Cela fait bientôt 2 ans que je fais passer systématiquement un test technique par téléphone via un GoogleDoc, en guise de “présélection“ pour les stages ou jobs. Voici une rapide présentation du “pourquoi“, du “comment“ et surtout des enseignements que j'ai pu en tirer."
@@ -287,7 +300,7 @@
     title: "Mercurial: l'autre DVCS"
     slides_url: https://bitbucket.org/benoit_viguier/hg-slideshow
     slides_lang: fr
-    date: 14th October 2014
+    date: October 14th 2014
     event: HumanTalks
     event_url: http://www.lyonjug.org/evenements/docker
     description: ""
