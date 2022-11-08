@@ -5,7 +5,7 @@
     date: October 13th 2021
     event: ForumPhp 2022
     event_url: "https://event.afup.org/forum-php-2022/programme/#3977"
-    video_url: ~
+    video_url: https://youtu.be/gnKm6qByGAY
     description: "Là, maintenant, tout de suite, êtes-vous capable de dire si votre site internet fonctionne correctement ? Et en cas d’incident en pleine nuit, pouvez-vous déterminer la chronologie des évènements ? C’est à ces questions que la télémétrie apporte une réponse, en instrumentant votre code et en envoyant les données collectées dans un outil d’analyse. Mais quel est le meilleur ? Est ce qu’il existe des solutions (presque) gratuites ? Peut-on changer d’avis facilement ? C’est là qu’OpenTelemetry intervient. OpenTelemetry propose une API de télémétrie, indépendante du langage et indépendante du service d’analyse utilisé. Fortement encouragé (et déjà supporté!) par les principaux acteurs du marché, poussé par une communauté active, ce protocole a tout pour devenir un standard de communication pour la télémétrie. Dans cette conférence nous aborderons les concepts fondamentaux de cette API, l’écosystème PHP existant, ainsi que des idées à mettre en pratique (et en production !) dès la semaine suivante."
     lang: fr
     categories:
