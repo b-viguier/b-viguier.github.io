@@ -25,4 +25,8 @@
 -
     id: SDL
     title: SDL
-    color: "#6E7889"
+    color: "#333333"
+-
+    id: telemetry
+    title: Telemetry
+    color:
