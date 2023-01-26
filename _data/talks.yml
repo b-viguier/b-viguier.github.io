@@ -1,8 +1,20 @@
 -
+    title: "Le point virgule de trop"
+    slides_url: https://b-viguier.github.io/Talk-Php-Mono-Statement/
+    slides_lang: fr
+    date: January 17th 2023
+    event: Afup Lyon
+    event_url: "https://www.meetup.com/fr-FR/afup-lyon-php/events/290420580/"
+    video_url: ~
+    description: "Le Php est très largement inspiré du langage C et il en a hérité ce fameux point-virgule pour délimiter chaque instruction (ou statement). Avec un peu d'experience, il est même possible de s'économiser quelques instructions (avec l'opérateur ternaire, coalescent...) et c'est souvent assez plaisant car le code est alors réduit, donnant une (fausse?) impression de simplicité et/ou de lisibilité. Dans ce talk, je vous propose de pousser ce principe à l'extrême: pouvons-nous écrire tous nos programmes avec un seul point virgule? (Voir aucun?) Cet exercice un peu fou nous permettra de nous familiariser avec les Core Concepts de Php (statements, expression, language constructs...), d'évoquer la programmation fonctionnelle et de découvrir plein de petites astuces pour briller lors de vos Pull-Requests."
+    lang: fr
+    categories:
+        - php
+-
     title: "OpenTelemetry: vers un standard pour surveiller vos applications"
     slides_url: downloads/talks/ForumPhp2022-OpenTelemetry.pdf
     slides_lang: fr
-    date: October 13th 2021
+    date: October 13th 2022
     event: ForumPhp 2022
     event_url: "https://event.afup.org/forum-php-2022/programme/#3977"
     video_url: https://youtu.be/gnKm6qByGAY
