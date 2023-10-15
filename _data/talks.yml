@@ -1,4 +1,17 @@
 -
+    title: "ReactPhp, AmPhp, RevoltPhp: Asynchronous Frameworks Comparison"
+    slides_url: downloads/talks/ForumPhp2023-AsynchronousFrameworks.pdf
+    slides_lang: en
+    date: October 12th 2023
+    event: ForumPhp 2023
+    event_url: "https://event.afup.org/forum-php-2023/programme/#4339"
+    video_url: ~
+    description: "Depuis la sortie des Fibers en PHP 8.1, le langage a maintenant tout ce qu’il faut pour offrir une expérience développeur fluide pour la programmation asynchrone. Les deux frameworks historiques (ReactPhp et Amp) se sont mis à la page, et leurs équipes ont même collaboré pour développer une implémentation commune (et autonome!) d’Event Loop: RevoltPhp. Cette conférence propose un comparatif de ces 3 librairies à travers différents exemples, ainsi que des conseils pratiques pour migrer une application existante. Et si le moment était venu d’optimiser votre application avec la programmation asynchrone ?"
+    lang: fr
+    categories:
+        - php
+        - async
+-
     title: "Le point virgule de trop"
     slides_url: https://b-viguier.github.io/Talk-Php-Mono-Statement/
     slides_lang: fr
