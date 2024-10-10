@@ -1,4 +1,16 @@
 -
+    title: "The Great Circle of Life (of a variable)"
+    slides_url: downloads/talks/ForumPhp2024_GreatCircleOfLife.pdf
+    slides_lang: en
+    date: October 11th 2024
+    event: ForumPhp 2024
+    event_url: "https://event.afup.org/forum-php-2024/programme/#4962"
+    video_url: ~
+    description: "En PHP, pas besoin de se préoccuper de l’allocation mémoire, le ZendEngine gère tout ça pour vous ! Malgré tout, lorsque vous exécutez des processus longs (cron, workers…), il est parfois (trop) facile de consommer beaucoup (trop) de mémoire sans s’en rendre compte… Garbage collection, références cycliques, copy on write, WeakReference… voici un rapide tour d’horizon des pièges et outils à connaître pour optimiser la gestion mémoire de vos programmes."
+    lang: fr
+    categories:
+        - php
+-
     title: "ReactPhp, AmPhp, RevoltPhp: Asynchronous Frameworks Comparison"
     slides_url: downloads/talks/ForumPhp2023-AsynchronousFrameworks.pdf
     slides_lang: en
