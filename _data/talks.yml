@@ -1,4 +1,16 @@
 -
+    title: "Writing Php code with only 6 characters"
+    slides_url: downloads/talks/ForumPhp2024_6Characters.pdf
+    slides_lang: en
+    date: October 12th 2024
+    event: ForumPhp 2024
+    event_url: "https://event.afup.org/forum-php-2024/programme/#4750"
+    video_url: ~
+    description: "Mais pourquoi ? Pourquoi donc voudrions nous écrire un programme avec une contrainte aussi absurde ?? Parce que l’important n’est pas la destination, mais le voyage… De même qu’une solution de Code Golf ou de Quine n’a pas pour vocation d’être mise en production, ce challenge est un prétexte pour explorer quelques subtilités de PHP. Idée géniale pour l’obfuscation? Hérésie à ne jamais montrer aux juniors? Accrochez vos ceintures, et venez vous faire une opinion avec ce talk (très) technique et (presque) philosophique !"
+    lang: fr
+    categories:
+        - php
+-
     title: "The Great Circle of Life (of a variable)"
     slides_url: downloads/talks/ForumPhp2024_GreatCircleOfLife.pdf
     slides_lang: en
