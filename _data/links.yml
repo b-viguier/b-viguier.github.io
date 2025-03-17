@@ -1,20 +1,20 @@
 -
-    title: Twitter
-    text: "@b_viguier"
-    icon: fab fa-twitter
-    url: https://twitter.com/b_viguier
+    title: BlueSky
+    text: "b-viguier.bsky.social"
+    icon: fa-brands fa-bluesky
+    url: https://bsky.app/profile/b-viguier.bsky.social
 -
     title: Mastodon
     text: "@b_viguier"
-    icon: fab fa-mastodon
+    icon: fa-brands fa-mastodon
     url: https://phpc.social/@b_viguier
 -
     title: Github,
     text: "@b-viguier"
-    icon: fab fa-github
+    icon: fa-brands fa-github
     url: https://github.com/b-viguier
 -
     title: Linkedin
     text: bviguier
-    icon: fab fa-linkedin
+    icon: fa-brands fa-linkedin
     url: https://fr.linkedin.com/in/bviguier
