@@ -3,16 +3,19 @@
 https://b-viguier.github.io
 
 
-## Run
+## Development
 
-```
-docker run --rm -it -e JEKYLL_ROOTLESS=1 --volume="$PWD:/srv/jekyll" -p 4000:4000 -p 35729:35729 jekyll/jekyll jekyll serve --livereload
+* Create Docker image
+```bash
+docker build -t jekyll . 
 ```
 
-## Update
+* Run it
+```bash
+docker run --rm -it --volume="$PWD:/srv/jekyll" -p 4000:4000 -p 35729:35729 jekyll serve --host 0.0.0.0 --livereload
 ```
-docker run --rm -it -e JEKYLL_ROOTLESS=1 --volume="$PWD:/srv/jekyll" -p 4000:4000 -p 35729:35729 jekyll/jekyll bundle lock --update`
-```
+
+Then open `http://localhost:4000/`.
 
 ## Help
 
