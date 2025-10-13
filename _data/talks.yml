@@ -5,7 +5,7 @@
     date: October 12th 2024
     event: ForumPhp 2024
     event_url: "https://event.afup.org/forum-php-2024/programme/#4750"
-    video_url: ~
+    video_url: "https://afup.org/talks/4750-ecrire-du-php-avec-seulement-6-caracteres"
     description: "Mais pourquoi ? Pourquoi donc voudrions nous écrire un programme avec une contrainte aussi absurde ?? Parce que l’important n’est pas la destination, mais le voyage… De même qu’une solution de Code Golf ou de Quine n’a pas pour vocation d’être mise en production, ce challenge est un prétexte pour explorer quelques subtilités de PHP. Idée géniale pour l’obfuscation? Hérésie à ne jamais montrer aux juniors? Accrochez vos ceintures, et venez vous faire une opinion avec ce talk (très) technique et (presque) philosophique !"
     lang: fr
     categories:
@@ -17,7 +17,7 @@
     date: October 11th 2024
     event: ForumPhp 2024
     event_url: "https://event.afup.org/forum-php-2024/programme/#4962"
-    video_url: ~
+    video_url: "https://afup.org/talks/4962-le-grand-cycle-de-la-vie-d-une-variable"
     description: "En PHP, pas besoin de se préoccuper de l’allocation mémoire, le ZendEngine gère tout ça pour vous ! Malgré tout, lorsque vous exécutez des processus longs (cron, workers…), il est parfois (trop) facile de consommer beaucoup (trop) de mémoire sans s’en rendre compte… Garbage collection, références cycliques, copy on write, WeakReference… voici un rapide tour d’horizon des pièges et outils à connaître pour optimiser la gestion mémoire de vos programmes."
     lang: fr
     categories:
@@ -29,7 +29,7 @@
     date: October 12th 2023
     event: ForumPhp 2023
     event_url: "https://event.afup.org/forum-php-2023/programme/#4339"
-    video_url: ~
+    video_url: "https://afup.org/talks/4339-reactphp-amp-revoltphp-comparatif-des-frameworks-asynchrones"
     description: "Depuis la sortie des Fibers en PHP 8.1, le langage a maintenant tout ce qu’il faut pour offrir une expérience développeur fluide pour la programmation asynchrone. Les deux frameworks historiques (ReactPhp et Amp) se sont mis à la page, et leurs équipes ont même collaboré pour développer une implémentation commune (et autonome!) d’Event Loop: RevoltPhp. Cette conférence propose un comparatif de ces 3 librairies à travers différents exemples, ainsi que des conseils pratiques pour migrer une application existante. Et si le moment était venu d’optimiser votre application avec la programmation asynchrone ?"
     lang: fr
     categories:
